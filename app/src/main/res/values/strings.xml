@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">mireaproject</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="calculator">Calculator</string>
+    <string name="brouser">Brouser</string>
+    <string name="player">Player</string>
+    <string name="sensors">Sensors</string>
+    <string name="photo">Photo</string>
+    <string name="audio_record">Audio Record</string>
+    <string name="settings">Settings</string>
+    <string name="history">History</string>
+    <string name="maps">Maps</string>
+    <string name="database">Database</string>
+    <string name="net_info">Network Information</string>
+
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main_firebase">MainActivityFirebase</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="label_emailpassword">Email/Password Authentication</string>
+    <string name="desc_emailpassword">Use an email and password to authenticate with Firebase.</string>
+    <string name="hint_user_id">User ID</string>
+    <string name="sign_in">Войти</string>
+    <string name="create_account">Создать аккаунт</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="signed_out">Вход не выполнен</string>
+    <string name="auth_failed">Почта не найдена или неверный пароль</string>
+    <string name="firebase_user_management">Firebase User Management</string>
+    <string name="emailpassword_title_text">Введите почту и пароль для входа или регистрации</string>
+    <string name="error_sign_in_failed">Sign in failed, see logs for details</string>
+
+</resources>

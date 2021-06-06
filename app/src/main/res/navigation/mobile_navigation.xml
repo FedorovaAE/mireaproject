@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.mirea.averina.mireaproject.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_calculate"
+        android:name="com.mirea.averina.mireaproject.CalculateFragment"
+        android:label="@string/calculator"
+        tools:layout="@layout/fragment_calculate" />
+    <fragment
+        android:id="@+id/nav_brouser"
+        android:name="com.mirea.averina.mireaproject.WebViewFragment"
+        android:label="@string/brouser"
+        tools:layout="@layout/fragment_web_view" />
+    <fragment
+        android:id="@+id/nav_player"
+        android:name="com.mirea.averina.mireaproject.PlayerFragment"
+        android:label="@string/player"
+        tools:layout="@layout/fragment_player" />
+    <fragment
+        android:id="@+id/nav_sensors"
+        android:name="com.mirea.averina.mireaproject.SensorsFragment"
+        android:label="@string/sensors"
+        tools:layout="@layout/fragment_sensors" />
+    <fragment
+        android:id="@+id/nav_photo"
+        android:name="com.mirea.averina.mireaproject.PhotoFragment"
+        android:label="@string/photo"
+        tools:layout="@layout/fragment_photo" />
+    <fragment
+        android:id="@+id/nav_audio_record"
+        android:name="com.mirea.averina.mireaproject.AudioRecordFragment"
+        android:label="@string/audio_record"
+        tools:layout="@layout/fragment_audio_record" />
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.mirea.averina.mireaproject.SettingsFragment"
+        android:label="@string/settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/nav_history"
+        android:name="com.mirea.averina.mireaproject.HistoryFragment"
+        android:label="@string/history"
+        tools:layout="@layout/fragment_history" />
+    <fragment
+        android:id="@+id/nav_maps"
+        android:name="com.mirea.averina.mireaproject.MapsFragment"
+        android:label="@string/maps"
+        tools:layout="@layout/fragment_maps" />
+    <fragment
+        android:id="@+id/nav_database"
+        android:name="com.mirea.averina.mireaproject.DatabaseFragment"
+        android:label="@string/database"
+        tools:layout="@layout/fragment_database" />
+    <fragment
+        android:id="@+id/nav_net_info"
+        android:name="com.mirea.averina.mireaproject.NetworkInfoFragment"
+        android:label="@string/net_info"
+        tools:layout="@layout/fragment_network_info" />
+
+</navigation>
